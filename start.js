@@ -389,7 +389,7 @@ Promise.all([dnsServerStarted, httpServerStarted]).then(() => {
 
 	console.log("Responding with address " + ipAddr);
 	console.log("Switch DNS IP: " + (argv.host || ip.address()));
-	// require('./repl');
+	require('./repl');
 	logger = logf;
 	logf = {log: function() {}};
 
