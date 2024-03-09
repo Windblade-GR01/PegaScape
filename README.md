@@ -33,15 +33,16 @@ Other |	✗ |	✗ |	✗ |	✗ | 	✗
 [4.1.0 Switch booting into Atmosphere CFW](https://www.youtube.com/watch?v=DBVjrjoZO8w)
 
 
-### Public DNS IP Addresses (i believe these are broken)
+### Public DNS IP Addresses
 
 We provide a public DNS IP for each common browser entrypoint present on the Switch:
 
-**Webapplet (Fake News, 1.0 JP Puyo Puyo Tetris)**: \[Currently missing\]
+**Wifi Authentication Prompt**: 144.24.47.134
+**Webapplet (Fake News, 1.0 JP Puyo Puyo Tetris)**: 
 
-**Wifi Authentication Prompt**:	\[Currently missing\]
-
-Note that these public DNS servers run the 90DNS configuration. This means that the connection test will pass (for the Webapplet server) and you can use homebrew with internet functionality, but you will not be able to connect to Nintendo services.
+Note that these public DNS servers run the 90DNS configuration.  
+This means that the connection test will pass (for the Webapplet server)  
+and you can use homebrew with internet functionality, but you will not be able to connect to Nintendo services.
 
 You can install Fake News with <a href="https://github.com/noahc3/fakenews-injector/releases/latest">Fake News Injector</a>
 
