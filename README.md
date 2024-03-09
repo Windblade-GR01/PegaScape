@@ -41,9 +41,9 @@ Follow https://switch.homebrew.guide for an easy to follow noob guide for going 
 
 We provide a public DNS IP for each common browser entrypoint present on the Switch:
 
-**Webapplet (Fake News, 1.0 JP Puyo Puyo Tetris)**: 163.172.181.170
+**Webapplet (Fake News, 1.0 JP Puyo Puyo Tetris)**: \[Currently missing\]
 
-**Wifi Authentication Prompt**:	51.15.245.41
+**Wifi Authentication Prompt**:	\[Currently missing\]
 
 Note that these public DNS servers run the 90DNS configuration. This means that the connection test will pass (for the Webapplet server) and you can use homebrew with internet functionality, but you will not be able to connect to Nintendo services.
 
@@ -63,7 +63,11 @@ You can also self-host PegaScape yourself:
     * `--host <dns_server_ip_override` if the detected IP address for the DNS server is not preffered.
     * `--disable-dns` if you want to disable the internal DNS server and use something else (dnsmasq, bind, etc).
     * Root privileges are usually required on Linux to bind to port 80 and 53.
-    
+
+**Important:**
+[node-gyp](https://github.com/nodejs/node-gyp) is one of the main dependecies.
+Usually this adds the requeriment of C++ compilers. Check out the readme of node-gyp for more info.
+
 ## Changes from PegaSwitch
 
 * Logging is disabled by default (enable with "debug": true).
@@ -83,6 +87,8 @@ Nobody is responsible if you lose your data, brick your Switch, get banned, drop
 
 ## Credits
 
+* noahc3 for the original PegaScape
+* Crudefern on his fork for helping to indentify the problems with newer node versions.
 * ReSwitched, hexkyz and other contributors for PegaSwitch.
 * Everyone who worked on smhax, nvhax, nspwn, etc.
 * liuervehc for <a href="https://github.com/liuervehc/caffeine/">Caffeine</a>, bringing the first CFW to IPATCHED Switches, and dealing with my random support DMs.
