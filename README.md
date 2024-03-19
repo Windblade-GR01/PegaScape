@@ -33,19 +33,16 @@ Other |	✗ |	✗ |	✗ |	✗ | 	✗
 [4.1.0 Switch booting into Atmosphere CFW](https://www.youtube.com/watch?v=DBVjrjoZO8w)
 
 
-## Usage
-
-Follow https://switch.homebrew.guide for an easy to follow noob guide for going from stock 1.0.0 - 3.0.0 and 4.0.1 - 4.1.0 with PegaScape. Otherwise, if you want to jump in...
-
 ### Public DNS IP Addresses
 
 We provide a public DNS IP for each common browser entrypoint present on the Switch:
 
-**Webapplet (Fake News, 1.0 JP Puyo Puyo Tetris)**: \[Currently missing\]
+**Wifi Authentication Prompt**: 144.24.47.134
+**Webapplet (Fake News, 1.0 JP Puyo Puyo Tetris)**: 
 
-**Wifi Authentication Prompt**:	\[Currently missing\]
-
-Note that these public DNS servers run the 90DNS configuration. This means that the connection test will pass (for the Webapplet server) and you can use homebrew with internet functionality, but you will not be able to connect to Nintendo services.
+Note that these public DNS servers run the 90DNS configuration.  
+This means that the connection test will pass (for the Webapplet server)  
+and you can use homebrew with internet functionality, but you will not be able to connect to Nintendo services.
 
 You can install Fake News with <a href="https://github.com/noahc3/fakenews-injector/releases/latest">Fake News Injector</a>
 
@@ -86,9 +83,8 @@ Usually this adds the requeriment of C++ compilers. Check out the readme of node
 Nobody is responsible if you lose your data, brick your Switch, get banned, drop your Switch into the toilet, have your Switch stolen by ninjas, etc, except yourself. By using PegaScape or any form of homebrew in any capacity you understand the risks involved with running unsigned code on your Switch.
 
 ## Credits
-
 * noahc3 for the original PegaScape
-* Crudefern on his fork for helping to indentify the problems with newer node versions.
+* Gacel and Crudefern for helping to indentify the problems with newer node versions.
 * ReSwitched, hexkyz and other contributors for PegaSwitch.
 * Everyone who worked on smhax, nvhax, nspwn, etc.
 * liuervehc for <a href="https://github.com/liuervehc/caffeine/">Caffeine</a>, bringing the first CFW to IPATCHED Switches, and dealing with my random support DMs.
